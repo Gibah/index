@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel="stylesheet" href="bxslider/jquery.bxslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="bxslider/jquery.bxslider.min.js"></script>
+	<meta charset="utf-8">
+	<meta name="Description" content="Página inicial, Descrição.">
+	<meta name="Keywords" content="pagina inicial, gilberto, descrição, portifolio">
+	<link rel="stylesheet" href="estilo.css">
+	<title>Home - Gilberto</title>
+</head>
+	
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html" title="pagina inicial">Home</a></li><li><a href="violao.html" title="violao">Violão</a></li><li><a href="estudos.html" title="estudos">Estudos</a></li><li><a href="canada.html" title="canada">Canadá</a></li><li><a href="contato.html" title="contato">Quer saber mais</a></li>
+		</ul>
+	</nav>
+	
+<section class="destaque">
+	<h1>My World!</h1>
+	<div class="slide">
+		<!--div><img src="imagens/xanada-7.jpg" alt="destaque 1"></div-->
+		<div><img src="imagens/slide-estudos.jpg" alt="destaque 2"></div>
+		<div><img src="imagens/slide-canada.jpg" alt="destaque 3"></div>
+	</div>	
+</section>
+	
+	<main>
+		<p><span>Aqui vou colocar um pouco das coisas que mais gosto de fazer. De modo rápido vou mostrar algumas coisas que estão diariamente no meu dia!</span>
+		<span>Por exemplo, o <a href="violao.html">Violão Erudito</a> surgiu na minha vida quando tinha 17 anos, e já achava que tocava violão. Conheci um Mestre Jedai do violão, e pude me dedicar bastante, e receber um bom conhecimento na escola que estudava.</span>
+		<span>No caso dos <a href="estudos.html">Estudos</a>, foi um pouco mais recente, acabei desenvolvendo um gosto por conhecer cada vez mais coisas novas. Acabei conhecendo e mergulhando cada vez mais na área de TI, principalmente em Programação.</span>
+		<span>Já no caso do <a href="canada.html">Canadá</a>, já é um romance mais antigo. Como sempre tive vontade de sair do país, sempre pesquisei muitas maneiras de como poderia fazer isso. E acabei esbarrando com esse país maravilhoso que foi construido por imigrantes.</span>
+		Espero que gostem. Enjoy it!</p>
+	</main>
+	
+	<footer></footer>
+	
+	<!-- INICIALIZAÇÃO DO SLIDER -->
+	<script>
+		$(document).ready(function(){
+    	$('.slide').bxSlider();
+  		});
+	</script>
+</body>
+</html>
